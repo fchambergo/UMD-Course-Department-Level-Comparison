@@ -71,7 +71,7 @@ class ApplicationWindow(QMainWindow):
 
         # Description for the top of program with a custom image
         self.label = QLabel(self)
-        pixmap = QPixmap('C:/Users/frank/Desktop/School/Classes/INST326/326 project stuff/umd courses project.png')
+        pixmap = QPixmap('umd courses project.png')
         pixmap2 = pixmap.scaled(700,700, Qt.KeepAspectRatio)
         self.label.setPixmap(pixmap2)
         self.label.resize(1000,200)
